@@ -1,0 +1,96 @@
+footer {
+	background-color: #112d4e;
+	color: white;
+
+}
+.footer-menu {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 3.125rem;
+	padding-bottom: 2.875rem;
+	&__items {
+	}
+	&__link {}
+}
+.description {
+	flex: 0 0 22.94rem;
+}
+.footer-logo {
+	&__link {
+		display: inline-block;
+		background: url("../images/logo/Vector_Smart_Object_copy.png");
+		background-repeat: no-repeat;
+		background-position: 0px 0px;
+		width: 199px;
+		height: 80px;
+		padding-bottom: 1.8125rem;
+	}
+}
+.item {
+	&__text {
+		font-family: Roboto;
+		font-size: 0.9375em;
+		line-height: 1.4667em;
+	}
+	&__title {
+		font-family: Roboto;
+		font-size: 1.125em;
+		font-weight: 500;
+		padding-bottom:  1.5625rem;
+	}
+	&__menu {}
+}
+.documents {
+	flex: 0 0 9.125rem;
+}
+.menu {
+	&__item {
+		font-family: Roboto;
+		font-size: 0.9375em;
+		padding-bottom: 1.25rem;
+	}
+}
+.footer-menu__link {
+		color: #ffffff;
+		line-height: 1.4667em;
+}
+.menu-footer {
+	flex: 0 0 4.69rem;
+}
+.about-company {
+	flex: 0 0 10.94rem;
+}
+.follows {
+	flex: 0 0 4.94rem;
+	text-align: center;
+}
+.social{
+	display: inline-block;
+	width: 1.875rem;
+	height: 1.875rem;
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	line-height: 30px;
+	margin-right: 0.875rem;
+}
+.social:last-child{
+	margin-right: 0;
+}
+.footer-rights {
+	display: block;
+	text-align: center;
+	&__text {
+		font-family: Roboto;
+		font-size: 0.9375em;
+		padding-top: 1.875rem;
+		padding-bottom: 1.875rem;
+	}
+}
+.footer-rights:before{
+	content: '';
+	display: block;
+	height: 1px;
+	width: 100%;
+	background: #ffffff;
+	opacity: 0.3;
+}

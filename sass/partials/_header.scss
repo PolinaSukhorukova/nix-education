@@ -1,0 +1,56 @@
+header {
+	background-color: #f9f7f7;
+}
+	.layout {
+		max-width: 75rem;
+		margin: 0 auto;
+		padding: 0 15px;
+}
+.header{
+		display: flex;
+		justify-content: space-between;
+		height: 100px;
+}
+
+.logo {
+	&__link {
+		display: inline-block;
+		background: url("../images/logo/Vector_Smart_Object.svg");
+		background-repeat: no-repeat;
+		background-position: 0px 26px;
+		width: 199px;
+		height: 100px;
+}
+}
+.menu {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	&__link {
+		padding: 18px 25px 20px 25px;
+		font-family: Roboto;
+		color: #666;
+	}
+	&__drop-down{
+		width: 6px;
+		height: 6px;
+		display: inline-block;
+		border-bottom: 1px solid #808080;
+		border-right: 1px solid #808080;
+		transform: rotate(45deg);
+		margin-bottom: 4px;
+		margin-left: 6px;
+	}
+	&__link:last-child {
+		margin: 0 0 0 25px;
+
+	}
+	&__link:hover {
+		border: 1px solid #999;
+		border-radius: 10px;
+		color: #3f72af;
+	}
+
+}
+
+
