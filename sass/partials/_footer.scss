@@ -29,12 +29,12 @@ footer {
 .item {
 	&__text {
 		font-family: Roboto;
-		font-size: 0.9375em;
+		font-size: calc(12px + (15 - 12) * (100vw / 1200));
 		line-height: 1.4667em;
 	}
 	&__title {
 		font-family: Roboto;
-		font-size: 1.125em;
+		font-size: calc(14px + (18 - 14) * (100vw / 1200));
 		font-weight: 500;
 		padding-bottom:  1.5625rem;
 	}
@@ -46,7 +46,7 @@ footer {
 .menu {
 	&__item {
 		font-family: Roboto;
-		font-size: 0.9375em;
+		font-size: calc(12px + (15 - 12) * (100vw / 1200));
 		padding-bottom: 1.25rem;
 	}
 }
@@ -81,7 +81,7 @@ footer {
 	text-align: center;
 	&__text {
 		font-family: Roboto;
-		font-size: 0.9375em;
+		font-size: calc(12px + (15 - 12) * (100vw / 1200));
 		padding-top: 1.875rem;
 		padding-bottom: 1.875rem;
 	}

@@ -30,6 +30,7 @@ header {
 		padding: 18px 25px 20px 25px;
 		font-family: Roboto;
 		color: #666;
+		font-size: calc(13px + (16 - 13) * (100vw/1200));
 	}
 	&__drop-down{
 		width: 6px;
