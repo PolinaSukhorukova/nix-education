@@ -129,7 +129,6 @@
 }
 
 .feature {
-	&__column {}
 	&__image {
 		margin-bottom: 1.8125rem;
 		height: 4.5rem;}
@@ -339,7 +338,6 @@
 		background-color: #3f72af;
 		margin: 0px 0px 0px -41.8919%;
 	}
-	&__options {}
 	&__option {
 		color: #333333;
 		font-family: Roboto;
@@ -403,8 +401,6 @@
 		display: flex;
 		justify-content: space-evenly;
 	}
-
-	&__img {}
 }
 
 .review {
@@ -532,14 +528,19 @@
 		font-weight: 400;
 	}
 }
-.layout {
-}
 
 
-@media (max-width: 1020px)  {
+
+/* @media (max-width: 1020px)  {
 		.compare__picture{
 		display: none;
 		}
 		.compare__count{
 			width: 100%;}
+	} */
+
+@media (max-width: 1200px) {
+	.layout {
+		max-width: 1000px;
 	}
+}
