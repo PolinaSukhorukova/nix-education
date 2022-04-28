@@ -3,7 +3,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width; initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/all.css" type="text/css" />
 	<link rel="stylesheet" href="sass/fonts.css" type="text/css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,8 +15,7 @@
 		href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap"
 		rel="stylesheet">
 	<script type="text/javascript" src="js/jquery-3.2.0.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-	<title>Project name for browser tab</title>
+	<title>M-CASH</title>
 </head>
 
 <body>
@@ -27,12 +26,17 @@
 					<div class="logo">
 						<a class="logo__link" href="#"></a>
 					</div>
+					<div class="menu__icon">
+						<span></span>
+					</div>
 					<nav class="menu">
-						<a href="" class="menu__link">About Us</a>
-						<a href="" class="menu__link">Resources
-							<div class="menu__drop-down"></div>
-						</a>
-						<a href="" class="menu__link">Contact Us</a>
+						<ul class="menu__list">
+							<li><a href="" class="menu__link">About Us</a></li>
+							<li><a href="" class="menu__link">Resources
+									<div class="menu__drop-down"></div>
+								</a></li>
+							<li><a href="" class="menu__link">Contact Us</a></li>
+						</ul>
 					</nav>
 				</div>
 			</div>
@@ -285,38 +289,40 @@
 							laoreet bibendum. Vestibulum mattis accumsan nulla eget sagittis.
 						</div>
 					</div>
-					<div class="footer-menu__items documents">
-						<div class="item__title">Documents
+					<div class="footer__items">
+						<div class="footer-menu__items documents">
+							<div class="item__title">Documents
+							</div>
+							<ul class="item__menu">
+								<li class="menu__item"><a class="footer-menu__link" href="#">Privacy policy</a></li>
+								<li class="menu__item"><a class="footer-menu__link" href="#">Terms and conditions</a></li>
+							</ul>
 						</div>
-						<ul class="item__menu">
-							<li class="menu__item"><a class="footer-menu__link" href="#">Privacy policy</a></li>
-							<li class="menu__item"><a class="footer-menu__link" href="#">Terms and conditions</a></li>
-						</ul>
-					</div>
-					<div class="footer-menu__items menu-footer">
-						<div class="item__title">Menu
+						<div class="footer-menu__items menu-footer">
+							<div class="item__title">Menu
+							</div>
+							<ul class="item__menu">
+								<li class="menu__item"><a class="footer-menu__link" href="#">About Us</a></li>
+								<li class="menu__item"><a class="footer-menu__link" href="#">Resources</a></li>
+								<li class="menu__item"><a class="footer-menu__link" href="#">Contact Us</a></li>
+							</ul>
 						</div>
-						<ul class="item__menu">
-							<li class="menu__item"><a class="footer-menu__link" href="#">About Us</a></li>
-							<li class="menu__item"><a class="footer-menu__link" href="#">Resources</a></li>
-							<li class="menu__item"><a class="footer-menu__link" href="#">Contact Us</a></li>
-						</ul>
-					</div>
-					<div class="footer-menu__items about-company">
-						<div class="item__title">About company
+						<div class="footer-menu__items about-company">
+							<div class="item__title">About company
+							</div>
+							<ul class="item__menu">
+								<li class="menu__item"><a class="footer-menu__link" href="#">Company no.: 12345678</a></li>
+								<li class="menu__item"><a class="footer-menu__link" href="#">VAT Number: 123 4567 89</a></li>
+							</ul>
 						</div>
-						<ul class="item__menu">
-							<li class="menu__item"><a class="footer-menu__link" href="#">Company no.: 12345678</a></li>
-							<li class="menu__item"><a class="footer-menu__link" href="#">VAT Number: 123 4567 89</a></li>
-						</ul>
-					</div>
-					<div class="footer-menu__items follows">
-						<div class="item__title">Follow Us
+						<div class="footer-menu__items follows">
+							<div class="item__title">Follow Us
+							</div>
+							<ul class="item__menu">
+								<li class="menu__item social"><a class="_icon-fb" href="#"></a></li>
+								<li class="menu__item social"><a class="_icon-in" href="#"></a></li>
+							</ul>
 						</div>
-						<ul class="item__menu">
-							<li class="menu__item social"><a class="_icon-fb" href="#"></a></li>
-							<li class="menu__item social"><a class="_icon-in" href="#"></a></li>
-						</ul>
 					</div>
 				</section>
 				<section class="footer-rights">
@@ -328,5 +334,6 @@
 		</footer>
 	</div>
 </body>
+<script type="text/javascript" src="js/main.js"></script>
 
 </html>

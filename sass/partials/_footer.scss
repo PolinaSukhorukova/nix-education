@@ -13,9 +13,14 @@ footer {
 }
 
 .description {
-	flex: 0 0 22.94rem;
+	width: 32%;
+	margin-right: 5rem;
 }
-
+.footer__items{
+	width: 65%;
+	display: flex;
+	justify-content: space-between;
+}
 .footer-logo {
 	&__link {
 		display: inline-block;
@@ -106,4 +111,25 @@ footer {
 	width: 100%;
 	background: #ffffff;
 	opacity: 0.3;
+}
+
+
+@media (max-width: 992px){
+	.description{
+		margin-right: 1rem;
+	}
+}
+
+
+@media (max-width: 767px){
+	.footer-menu{
+		display: block;
+	}
+	.description{
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+	.footer__items{
+		width: 100%;;
+	}
 }
