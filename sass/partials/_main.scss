@@ -161,35 +161,32 @@ margin-bottom: 3.8125rem;
 	background-color: #f9f7f7;
 	padding-top: 4.3125rem;
 	padding-bottom: 4.125rem;
-
 	&__title {
 	position: relative;
 	}
-
 	&__row {
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-around;
 }
-
 	&__column {
 		text-align: start;
-		padding-right: 4rem;
-		width: 33.333%;
+		width: 26.25%;
 }
-
 	&__item-title {
 	color: #4d4d4d;
 	font-family: "Playfair Display - Semi Bold";
 	font-size: 1.875em;
 	margin-bottom: 1.875rem;
 }
-
 	&__text {
 	color: #333333;
 	font-family: Roboto;
 	font-size: 1.125em;
 	line-height: 1.5556;}
 }
+
+
+
 
 
 .call-to-action {
@@ -379,7 +376,6 @@ margin-bottom: 3.8125rem;
 		border: 1px solid #112d4e;
 	}
 }
-
 .price__name__even{
 		color: #ffffff;
 		font-family: Roboto;
@@ -590,6 +586,10 @@ margin-bottom: 3.8125rem;
 	}
 	 }
 
+
+
+
+
 	 
 	 @media (max-width: 767px) {
 		.layout {
@@ -601,8 +601,6 @@ margin-bottom: 3.8125rem;
 		.features {
 			margin-top: 1rem;
 		}
-
-
 		.features__row{
 			display: block;
 			margin-bottom: 3rem;
@@ -622,6 +620,17 @@ margin-bottom: 3.8125rem;
 		}
 		.how-it-works{
 			padding: 3rem 1rem;
+			&__row{
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+			&__column{
+				width: 70%;
+				margin-bottom: 20px;
+			}
+			&__item-title {
+				margin: 0 0 15px;
+			}
 		}
 		.call-to-action{
 			padding: 3rem 1rem;
